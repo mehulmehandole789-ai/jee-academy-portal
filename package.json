@@ -1,0 +1,15 @@
+{
+  "name": "jee-academy-portal",
+  "version": "1.0.0",
+  "description": "JEE Academy Portal - Complete MERN Stack Application",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "seed": "npm run seed --prefix server",
+    "test": "npm test --prefix server",
+    "test:workflows": "npm run test:workflows --prefix server",
+    "test:live": "npm run test:live --prefix server",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": ["mern", "jee", "academy", "education", "vite", "react", "mongodb", "express"]
+}
